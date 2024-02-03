@@ -1,0 +1,128 @@
+
+body
+{
+   background-color: #eedddd;
+}
+.tictactoe-app {
+    height: 100vh;
+   
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tictactoe-app h1 {  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.tic-tac-toe-container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.tic-tac-toe-board {
+    text-align: center;
+
+}
+
+.tic-tac-toe .row {
+    display: flex;
+    justify-content: center;
+}
+
+.tic-tac-toe .cell {
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+    color: #333;
+    font-weight: bold;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    outline: none;
+}
+
+.tic-tac-toe .cell:hover {
+    background-color: #e8e8e8;
+}
+
+.tic-tac-toe .cell.X {
+   color: red;
+    
+}
+
+.tic-tac-toe .cell.O {
+   color: blue;
+   
+}
+
+
+.tic-tac-toe .current-player {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+
+.tic-tac-toe .reset-button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #104feee1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe .reset-button:hover {
+    background-color: #33397c;
+}
+
+.game-messages {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe .winner-message {
+
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tic-tac-toe .draw-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(224, 31, 31);
+}
+
+#neon-text {
+    text-shadow:
+    0 0 2px #000000,
+    0 0 8px #000000;
+}
